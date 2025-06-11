@@ -287,7 +287,7 @@
 </div>
 <!-- ------ServicePartEND------ -->
 
-<!-- -------ABoutPastSTART-------- -->
+<!-- -------ABoutPartSTART-------- -->
 <div class="abtStart flex bg-stone-800 pt-30 pb-10 px-30">
 <div class="lside">
   <h1 class="text-7xl whitespace-nowrap font-serif text-white inline-block pt-30 pr-25"> AYESHA<span class="text-7xl text-orange-400 font-serif"> AYAT</span></h1>
@@ -333,7 +333,7 @@
 </div>
 <!-- ---------btnSectionDetailsStart -->
  <!-- 1about--------- -->
-<section id="aboutButton" class="">
+<section id="aboutButton" class="hidden">
   <div class="AboutStart bg-[#F5F5F5]">
  <h1 class="text-6xl whitespace-nowrap font-serif  inline-block pt-30 pl-25"> About<span class="text-6xl text-orange-400 font-serif"> Me</span></h1>
   <p class="text-orange-900 pt-5  pl-25 text-2xl line-through">-----------------------------------------------------------------------------------------------------------------------------------------------------</p>
@@ -343,7 +343,7 @@
 </div>
 </section>
  <!--2education--------- -->
-<section id="eduButton" class="">
+<section id="eduButton" class="hidden">
   <div class="eduStart bg-[#F5F5F5]">
  <h1 class="text-6xl whitespace-nowrap font-serif  inline-block pt-30 pl-25"> Education<span class="text-6xl text-orange-400 font-serif"> Timeline</span></h1>
   <p class="text-orange-900 pt-5  pl-25 text-2xl line-through">-----------------------------------------------------------------------------------------------------------------------------------------------------</p>
@@ -438,20 +438,19 @@
   <h1 class="text-3xl pt-17 text-black font-semibold ">Secondary-Science </h1>
   <p class="text-2xl pt-3 pl-1  font-serif text-gray-400"> Completed  </p>
   <!-- ------------  -->
-  <h1 class="text-3xl pt-17 text-black font-semibold ">Junior Secondary-Science </h1>
+  <h1 class="text-3xl pt-17 text-black font-semibold ">Junior Secondary </h1>
   <p class="text-2xl pt-3 pl-1 font-serif text-gray-400"> Completed </p>
 </div>
 </div>
 </section>
 <!-- 3skills---------- -->
  <!-- ------programming_Skills-- -->
- <section id="skillsBTN" class="">
+ <section id="skillsBTN" class="hidden">
   <div class="skillsBTNStart  bg-[#F5F5F5]">
  <h1 class="text-6xl whitespace-nowrap font-serif  inline-block pt-30 pl-25"> Programming<span class="text-6xl text-orange-400 font-serif"> Skills</span></h1>
   <p class="text-orange-900 pt-5  pl-25 text-2xl line-through">-------------------------------------------------------------------------------------------------------------------------------------------------</p>
   <div class="progressStart ml-30 mt-20 ">
     <div class="pgs mx-20 py-5">
-
       <h1 class="text-4xl font-mono text-gray-400 whitespace-nowrap pb-5">HTML5 <span class="ml-252">98%</span></h1> 
       <progress class="progress progress-warning mb-25 block h-3 w-300" value="98" max="100"></progress>
       <!-- ---------  -->
@@ -469,9 +468,11 @@
       <!-- ---------  -->
     </div>
   </div>
+  </div>
+ </section>
   <!-- ------------------Language_Skills---------- -->
-   <section id="skillsBTN" class="">
-  <div class="skillsBTNStart  bg-[#F5F5F5]">
+   <section id="skillsBTN" class="hidden">
+  <div class="skillsBTNStart pb-10 bg-[#F5F5F5]">
  <h1 class="text-6xl whitespace-nowrap font-serif  inline-block pt-30 pl-25"> Language<span class="text-6xl text-orange-400 font-serif"> Skills</span></h1>
   <p class="text-orange-900 pt-5  pl-25 text-2xl line-through">-------------------------------------------------------------------------------------------------------------------------------------------------</p>
 <!--1---------- -->
@@ -488,18 +489,56 @@
 </div>
 <!--3--------- -->
 <div class="lpgs ml-30 p-5 mt-30">
-  <div class="radial-progress text-orange-500  " style=" --value:98; --size:12rem; --thickness:0.6rem; " aria-valuenow ="98" role="progressbar">98%</div>
+  <div class="radial-progress text-orange-500  " style=" --value:100; --size:12rem; --thickness:0.6rem; " aria-valuenow ="98" role="progressbar">Native</div>
   <h1 class="text-6xl text-gray-500 pt-10">Bangla</h1>
 </div>
 <!-- 2--------- -->
 </div>
 </div>
  </section>
- 
-<!-- ---------btnSectionDetailsEnd -->
+ <section id="experiencebtn" class="hidden">
+   <div class="experiencebtnStart">
+     <div class="skillsBTNStart  bg-[#F5F5F5]">
+       <h1 class="text-6xl whitespace-nowrap font-serif  inline-block pt-30 pl-25"> Career<span class="text-6xl text-orange-400 font-serif"> Journey </span></h1>
+       <p class="text-orange-900 pt-5  pl-25 text-2xl line-through">-------------------------------------------------------------------------------------------------------------------------------------------------</p>
+       <!-- ------------- -->
+       
+       <!-- ------------------ -->
+      </div>
+    </section>
+    <!-- ---------btnSectionDetailsEnd -->
+<!-- -------ABoutPartEND-------- -->
 
+<!-- ------------PortfolioStart---------- -->
+<div class="main px-70 pt-35 pb-15 bg-orange-100 m-auto">
+  <p class="text-orange-400 font-semibold text-4xl mb-5  ml-10 m-auto text-center">Services</p>
+  <h1 class="text-7xl font-serif mt-2 ml-10 m-auto text-center">My Recent Works</h1>
+  <div class="flex">
+    <div class="ldiv"> 
 
-<!-- -------ABoutPastEND-------- -->
+    <div class="one h-80 w-130 mt-15 mr-5 rounded-2xl bg-red-900"></div>
+    <div class="btnflex">
+      <button class="btn btn-active border-1 border-gray-600 text-gray-600 px-5 h-8 rounded-3xl bg-orange-100 hover:bg-amber-950 hover:text-amber-50 mt-6.5 ml-1  ">WEB 
+      </button>
+      <button class="btn btn-active border-1 border-gray-600 text-gray-600 W-10 h-8 rounded-3xl bg-orange-100 hover:bg-amber-950 hover:text-amber-50  mt-6.5 ml-2  ">DEVELOPMENT</button>
+    </div>
+  </div>
+  <div class="rdiv"> 
+    <div class="one h-80 w-130 mt-15 rounded-2xl bg-red-900"></div>
+    <div class="btnflex">
+      <button class="btn btn-active border-1 border-gray-600 text-gray-600 px-5 h-8 rounded-3xl bg-orange-100 hover:bg-amber-950 hover:text-amber-50 mt-6.5 ml-1  ">WEB 
+      </button>
+      <button class="btn btn-active border-1 border-gray-600 text-gray-600 W-10 h-8 rounded-3xl bg-orange-100 hover:bg-amber-950 hover:text-amber-50  mt-6.5 ml-2  ">DEVELOPMENT</button>
+    </div>
+  </div>
+</div>
+  <!-- ----------------- -->
+
+  
+</div>
+
+<!-- ------------PortfolioEnd---------- -->
+
 
 </div>
 </div>
